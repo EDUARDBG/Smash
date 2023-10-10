@@ -6,31 +6,31 @@ body {
     background-image: url(image\ ring.avif);
     background-attachment: fixed;
     background-size: cover;
-  }
+}
   
-  #seleccionar-luchador {
+#seleccionar-luchador {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
+}
   
-  .titulo {
+.titulo {
     color: rgb(225, 21, 21);
     font-size: 32px;
-  }
+}
   
-  .subtitulo {
+.subtitulo {
     color: rgb(52, 92, 255);
     font-size: 20px;
-  }
+}
   
-  .Luchadores, .tarjetas-ataques{
+.Luchadores, .tarjetas-ataques{
     display: flex;
     gap: 10px;
-  }
+}
   
-  .Tarjeta-de-Luchadores {
+.Tarjeta-de-Luchadores {
     width: 178px;
     height : 100px;
     background: rgb(10, 107, 139);
@@ -40,15 +40,14 @@ body {
     display:flex;
     justify-content: center;
     align-items: center;
-    
-  }
+}
   
-  .Tarjeta-de-Luchadores img {
+.Tarjeta-de-Luchadores img {
       width: 80px;
       
-  }
+}
   
-  #boton-mascota{
+#boton-luchador{
     width: 180px;
     height: 40px;
     border-radius: 20px;
@@ -57,29 +56,31 @@ body {
     color: white;
     font-family: 'Fredoka', sans-serif;
     margin: 30px;
-  }
+}
   
-  .bendicion{
+.bendicion{
     color:rgb(0, 0, 0)
-  }
+}
   
-  input {
+input {
     display: none; 
-  }
+}
   
-  
-  h2{
+h2{
     color:rgb(255, 255, 255);
-  }
-  p{
+}
+
+p{
     color:black;
-  }
-  #seleccionar-ataque{
+}
+
+#seleccionar-ataque{
     display: flex;
     flex-direction: column;
     align-items: center;    
-  }
-  .boton-de-ataque{
+}
+
+.boton-de-ataque{
     background-color: skyblue;
     padding: 10px;
     box-sizing: border-box;
@@ -88,37 +89,37 @@ body {
     width: 100px;
     color:rgb(0, 0, 0);
     font-family: 'Caprasimo', cursive;
-  }
-  #mensajes{
+}
+
+#mensajes{
     width: 280px;
-    background: rgb(244, 246, 131);
+    background: rgb(9, 80, 222);
     padding: 20px;
     margin-top: 20px;
     border-radius: 20px;
     display: flex;
     align-items: center;
     flex-direction: column;
-  }
+}
   
-  #boton-reiniciar{
+#boton-reiniciar{
     border: transparent;
     color:black ;
     font-family: 'Caprasimo', cursive;
-  }
-  .Ataques{
+}
+.Ataques{
     display: grid;
     grid-template-columns: 100px 100px;
-  }
+}
   
-  .ataques-jugador, .ataques-enemigo {
+.ataques-jugador, .ataques-enemigo {
     display:flex;
     flex-direction: column;
     align-items: center;
-  }
+}
   
-  @media (max-width: 320px){
-    .tarjetas, .tarjetas-ataques {
+@media (max-width: 320px){
+    .Luchadores, .tarjetas-ataques {
       flex-direction: column;
     }
-  
-  }
+}
