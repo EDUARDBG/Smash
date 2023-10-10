@@ -1,11 +1,12 @@
-<!DOCTYPE html>
-    <html>
-        <head>
-            <meta charset="utf-8"/>
-            <title>Toño Crushes</title>
-            <link rel="stylesheet" href="./styles.css">
-        </head>
-        <body>
+    <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Toño Crushes</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <section id="seleccionar-luchador">
             <h1 class="titulo">Toño Crushes</h1>
 
             <h2 class="subtitulo">Elige tu Luchador🤼:</h2>
@@ -25,7 +26,7 @@
                     <p>Peach</p>
                     <img src="./Peach.jpg" name="luchador" alt="Peach">
                 </label>
-                
+                    
 
                 <!--Inge-->
                 <input type="radio" name="luchador" id="inge" />
@@ -33,7 +34,7 @@
                     <p>Ratigueya</p>
                     <img src="./didi kong.jpg" name="luchador" alt="Inge">
                 </label>
-                
+                    
 
                 <!--R.O.B-->
                 <input type="radio" name="luchador" id="r.o.b" />
@@ -41,14 +42,14 @@
                     <p>R.O.B</p>
                     <img src="./R.O.B.jpg" name="luchador" alt="R.O.B">
                 </label>
-                
+                    
                 <!--MOUNS-->
                 <input type="radio" name="luchador" id="tucapalma" />
                 <label class="Tarjeta-de-Luchadores" for="tucapalma"> 
                     <p>Mouns</p>
                     <img src="./mount.jpg" name="luchador" alt="Tucapalma">
                 </label>
-                
+                    
 
                 <!--Kirbi-->
                 <input type="radio" name="luchador" id="kirbi" />
@@ -56,20 +57,53 @@
                     <p>Kirbi</p>
                     <img src="./Kirbi.jpg" name="luchador" alt="Kirbi">>
                 </label>
-                
-
             </div>
-            
 
+                <!--BOTONES-->
+            <button id="boton-luchador">Seleccionar</button>
+        </section>
 
+        <section id="seleccionar-ataques">
+            <h1 class="titulo">Toño Smash</h1>
 
+            <h2 class="subtitulo">Elige tu ataque</h2>
 
+            <div class="tarjetas-ataques">
+                <button id="boton-hongo" class="boton-de-ataque">Hongo 🍄</button>
+                <button id="boton-misil" class="boton-de-ataque">Misil 🏹</button>
+                <button id="boton-martillo" class="boton-de-ataque">Martillo 🪓</button>
+                <button id="boton-flor-fuego" class="boton-de-ataque">Flor de Fuego 🌹</button>
+                <button id="boton-estelar" class="boton-de-ataque">Super estrella ✨</button>
+                <button id="boton-capa" class="boton-de-ataque">Capa 🎩</button>   
+            </div>  
 
+            <div id="mensajes">
 
+                <div id="resultado">
+                        Mucha suerte
+                </div>
+    
+                <section id="reiniciar">
+                        <button id="boton-reiniciar">Reiniciar</button>
+                </section>
+    
+            </div>
 
+            <div class="Ataques">
+                <div class="ataques-jugador">
+                    <p id="vidas-jugador">3</p>
+                    <p id=Luchador-jugador"></p>                                                                     
+                    <div id="ataques-del-jugador"></div>
+                </div>
+                <div class="ataques-enemigo">
+                    <p id="vidas-enemigo">3</p>
+                    <p id="Luchador-enemigo"></p>
+                    <div id="ataques-del-enemigo"></div>                
+                </div>
+            </div>
 
+        </section>
 
-
-        </body>
-
-    </html> stylesheet
+      </body>
+      <script src="./Toño-crushes.js"></script>
+</html>
