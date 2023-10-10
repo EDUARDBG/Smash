@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Staatliches&display=swap');
+
+body {
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Staatliches', cursive;
+    background-image: url(image\ ring.avif);
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  #seleccionar-luchador {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .titulo {
+    color: rgb(225, 21, 21);
+    font-size: 32px;
+  }
+  
+  .subtitulo {
+    color: rgb(52, 92, 255);
+    font-size: 20px;
+  }
+  
+  .Luchadores, .tarjetas-ataques{
+    display: flex;
+    gap: 10px;
+  }
+  
+  .Tarjeta-de-Luchadores {
+    width: 178px;
+    height : 100px;
+    background: rgb(10, 107, 139);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .Tarjeta-de-Luchadores img {
+      width: 80px;
+      
+  }
+  
+  #boton-mascota{
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    font-family: 'Fredoka', sans-serif;
+    margin: 30px;
+  }
+  
+  .bendicion{
+    color:rgb(0, 0, 0)
+  }
+  
+  input {
+    display: none; 
+  }
+  
+  
+  h2{
+    color:rgb(255, 255, 255);
+  }
+  p{
+    color:black;
+  }
+  #seleccionar-ataque{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+  }
+  .boton-de-ataque{
+    background-color: skyblue;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;  
+    border-color: transparent;
+    width: 100px;
+    color:rgb(0, 0, 0);
+    font-family: 'Caprasimo', cursive;
+  }
+  #mensajes{
+    width: 280px;
+    background: rgb(244, 246, 131);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  #boton-reiniciar{
+    border: transparent;
+    color:black ;
+    font-family: 'Caprasimo', cursive;
+  }
+  .Ataques{
+    display: grid;
+    grid-template-columns: 100px 100px;
+  }
+  
+  .ataques-jugador, .ataques-enemigo {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  @media (max-width: 320px){
+    .tarjetas, .tarjetas-ataques {
+      flex-direction: column;
+    }
+  
+  }
